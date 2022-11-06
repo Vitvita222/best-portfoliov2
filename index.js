@@ -34,5 +34,5 @@ function smoothScroll(target,duration){
 var button1 = document.querySelector('.about')
 
 button1.addEventListener('click', () => {
-    smoothScroll('.aboutme',1000);
+    smoothScroll('.aboutme',800);
 })

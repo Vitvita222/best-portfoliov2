@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 /*font-family: 'Bebas Neue', cursive;*/
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* font-family: 'Bebas Neue', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 body{
     background-color: #e8f2ff;
@@ -23,7 +25,7 @@ body{
     position: fixed;
     top: 0px;
     left: 0px;
-    background-color: #00A3FB;
+    background-color: #007abc;
     width: 100%;
     height: 12%;
     z-index: 100;
@@ -235,7 +237,11 @@ body{
 
 .waves1 {
     position: absolute;
-    top: -300px;
+    top: -410px;
+}
+.waves2 {
+    position: absolute;
+    top: 1100px;
 }
 
 
@@ -246,4 +252,133 @@ body{
     width: 100%;
     height: 1200px;
     background-color: #00A3FB;
+}
+
+.aboutmename {
+    height: 80px;
+    border-bottom: 10px solid rgb(255, 255, 255);
+    position: absolute;
+    color: white;
+    margin-left: 50px;
+    font-size: 55px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.info {
+    position: absolute;
+    top: 300px;
+    margin-left: 100px;
+    color: white;
+    font-weight: 1000;
+    font-size: 28px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 4px;
+    line-height: 60px;
+}
+
+.name {
+    
+    border-bottom: 5px solid rgb(255, 255, 255);
+}
+.lastname {
+    
+    border-bottom: 5px solid rgb(255, 255, 255);
+}
+.age {
+    
+    border-bottom: 5px solid rgb(255, 255, 255);
+}
+.phone {
+    
+    border-bottom: 5px solid rgb(255, 255, 255);
+}
+.email {
+    
+    border-bottom: 5px solid rgb(255, 255, 255);
+}
+
+
+.languages {
+    position: absolute;
+    margin-left: 1100px;
+    color: white;
+    top: 300px;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    line-height: 100px;
+}
+/*html*/
+.bar1 {
+    width: 400px;
+    height: 25px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 9px;
+    position: absolute;
+    top: 130px;
+}
+.innerbar1 {
+    background: white;
+    position: absolute;
+    width: 360px;
+    height: 17px;
+    top: 3.5px;
+    left: 5px;
+    border-radius: 5px;
+}
+.procentihtml {
+    font-size: 20px;
+    position: absolute;
+    top: 75px;
+    right: -293px;
+}
+/* css */
+.bar2 {
+    width: 400px;
+    height: 25px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 9px;
+    position: absolute;
+    top: 270px;
+}
+.innerbar2 {
+    background: white;
+    position: absolute;
+    width: 310px;
+    height: 17px;
+    top: 3.5px;
+    left: 5px;
+    border-radius: 5px;
+}
+.procenticss {
+    font-size: 20px;
+    position: absolute;
+    top: 215px;
+    right: -293px;
+}
+/* js */
+.bar3 {
+    width: 400px;
+    height: 25px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 9px;
+    position: absolute;
+    top: 400px;
+}
+.innerbar3 {
+    background: white;
+    position: absolute;
+    width: 250px;
+    height: 17px;
+    top: 3.5px;
+    left: 5px;
+    border-radius: 5px;
+}
+.procentijs {
+    font-size: 20px;
+    position: absolute;
+    top: 345px;
+    right: -293px;
 }
