@@ -4,16 +4,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 body{
+    background-color: #e8f2ff;
     height: 3000px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.buttonnav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between; /*an space-between romelis shen mogewoneba*/
 }
 
 .header {
     position: fixed;
     top: 0px;
     left: 0px;
-    background-color: rgb(0, 133, 204);
-    width: 1900px;
-    height: 100px;
+    background-color: #00A3FB;
+    width: 100%;
+    height: 12%;
     z-index: 100;
 }
 
@@ -139,24 +151,81 @@ body{
 .darkmode {
     position: absolute;
     right: 300px;
-    top: 35px;
-    width: 30px;
-    border: 1px;
+    top: 40px;
+    width: 31px;
+    border: 2px solid rgb(255, 255, 255);
     background-color: transparent;
     border-radius: 50%;
     transition: 0.3s;
 }
-
 .darkmode:hover{
+    cursor: pointer;
+    transform: scale(1.4);
+}
+.moon:hover{
     cursor: pointer;
     transform: scale(1.4);
     transition: 0.8s ease-in-out;
     transform: rotate(360deg);
 }
 
+
+
+
+/*section2*/
+
+
+
+
 .man {
     width: 350px;
     position: absolute;
     top: 400px;
     right: 300px;
+    background-color: transparent;
+}
+
+
+.mynameis {
+    position: absolute;
+    top: 370px;
+    left: 500px;
+    font-size: 70px;
+    font-family: 'Bebas Neue', cursive;
+    color: #00A3FB;
+    letter-spacing: 8px;
+}
+
+.mynameis span {
+    color: rgb(0, 118, 182);
+    font-family: 'Dancing Script', cursive;
+    top: 50px;
+}
+
+.iam {
+    position: absolute;
+    top: 530px;
+    left: 470px;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(0, 118, 182);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.waves1 {
+    position: absolute;
+    top: 1000px;
 }
