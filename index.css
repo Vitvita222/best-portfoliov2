@@ -1,0 +1,162 @@
+/*font-family: 'Dancing Script', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/*font-family: 'Bebas Neue', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    height: 3000px;
+}
+
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(0, 133, 204);
+    width: 1900px;
+    height: 100px;
+    z-index: 100;
+}
+
+
+.headername{
+    position: absolute;
+    top: -30px;
+    left: 300px;
+    font-size: 50px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 7px;
+}
+
+.headername span {
+    font-family: 'Dancing Script', cursive;
+}
+
+.about{
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    top: 25px;
+    left: 700px;
+    background-color: transparent;
+    border: 0px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+.about::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: white;
+    display: block;
+    transition: .5s ease-in-out;
+}
+.about:hover::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    display: block;
+    transition: .5s ease-in-out;
+}
+.about:hover{
+    cursor: pointer;
+}
+.certificate{
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    top: 25px;
+    left: 900px;
+    background-color: transparent;
+    border: 0px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+.certificate::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: white;
+    display: block;
+    transition: .5s ease-out;
+}
+.certificate:hover::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    display: block;
+    transition: .5s ease-in-out;
+}
+.certificate:hover{
+    cursor: pointer;
+}
+
+.projects{
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    top: 25px;
+    left: 1100px;
+    background-color: transparent;
+    border: 0px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+.projects::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: white;
+    display: block;
+    transition: .5s ease-in-out;
+}
+.projects:hover::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    display: block;
+    transition: .5s ease-in-out;
+}
+.projects:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+.moon{
+    fill: rgb(255, 255, 255);
+}
+
+.darkmode {
+    position: absolute;
+    right: 300px;
+    top: 35px;
+    width: 30px;
+    border: 1px;
+    background-color: transparent;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.darkmode:hover{
+    cursor: pointer;
+    transform: scale(1.4);
+    transition: 0.8s ease-in-out;
+    transform: rotate(360deg);
+}
+
+.man {
+    width: 350px;
+    position: absolute;
+    top: 400px;
+    right: 300px;
+}
