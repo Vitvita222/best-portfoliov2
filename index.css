@@ -7,7 +7,7 @@
 
 body{
     background-color: #e8f2ff;
-    height: 3000px;
+    height: 5000px;
     margin: 0;
     padding: 0;
 }
@@ -210,7 +210,6 @@ body{
 .iam {
     position: absolute;
     top: 530px;
-    
     font-size: 30px;
     font-family: 'Bebas Neue', cursive;
     color: rgb(0, 118, 182);
@@ -226,7 +225,10 @@ body{
 
 
 
-
+.fromdesctoabout {
+    position: absolute;
+    top: 1100px;
+}
 
 
 
@@ -381,4 +383,84 @@ body{
     position: absolute;
     top: 345px;
     right: -293px;
+}
+
+/* python */
+
+.bar4 {
+    width: 400px;
+    height: 25px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 9px;
+    position: absolute;
+    top: 530px;
+}
+.innerbar4 {
+    background: white;
+    position: absolute;
+    width: 120px;
+    height: 17px;
+    top: 3.5px;
+    left: 5px;
+    border-radius: 5px;
+}
+.procentipy {
+    font-size: 20px;
+    position: absolute;
+    top: 475px;
+    right: -293px;
+}
+
+
+
+
+.fromabouttocerti{
+    position: absolute;
+    top: 2500px;
+}
+
+
+
+
+
+
+.certificates {
+    position: absolute;
+    top: 2700px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 700px;
+}
+
+.certificatebigname {
+    height: 80px;
+    border-bottom: 10px solid #00A3FB;
+    position: absolute;
+    color: #00A3FB;
+    margin-left: 50px;
+    font-size: 55px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+
+/* cerificates */
+
+.certificateframe1 {
+    position: absolute;
+    width: 600px;
+    height: 360px;
+    top: 330px;
+    left: 50px;
+    background-color: #00A3FB;
+    border-radius: 9px;
+}
+
+.pythoncertificate {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 560px;
+    height: 320px;
 }

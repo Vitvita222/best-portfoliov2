@@ -24,7 +24,7 @@ function smoothScroll(target,duration){
         t /= d / 2;
         if (t < 1) return c / 2 * t * t + b;
         t--;
-        return -c / 2 * (t* (t - 2) - 1) +b;
+        return -c / 2 * (t* (t - 2) - 1) + b;
     }
     
 
@@ -34,5 +34,11 @@ function smoothScroll(target,duration){
 var button1 = document.querySelector('.about')
 
 button1.addEventListener('click', () => {
-    smoothScroll('.aboutme',800);
+    smoothScroll('.fromdesctoabout',800);
+})
+
+var button2 = document.querySelector('.certificate')
+
+button2.addEventListener('click', () => {
+    smoothScroll('.fromabouttocerti',800);
 })
